@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Cal.css" />
+  </head>
+  <body>
+    <header><div>Jafrul Header</div></header>
+    <main>
+      <div id="cal-div">
+        <input type="text" id="display-cal" readonly />
+        <div class="cal-button-container">
+          <div id="brand">JAFRUL ALAM TUSAR</div>
+
+          <div>
+            <button
+              class="cal-button"
+              style="background-color: #adc912; color: #ffffff"
+              ;
+              onclick="
+            calculator = '';
+            document.querySelector('#display-cal').value = calculator;
+            "
+            >
+              c
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '1';
+          document.querySelector('#display-cal').value = calculator;
+          
+          "
+            >
+              1
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '2';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              2
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '+';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              +
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '3';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              3
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '4';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              4
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '5';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              5
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '-';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              -
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '6';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              6
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '7';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              7
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '8';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              8
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '*';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              *
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '9';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              9
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '0';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              0
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '.';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              .
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = calculator + '/';
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              /
+            </button>
+            <button
+              class="cal-button"
+              onclick="calculator = eval(calculator);
+            document.querySelector('#display-cal').value = calculator;
+            
+            "
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>Jafrul Footer</div>
+    </footer>
+    <script src="./Cal.js"></script>
+  </body>
+</html>
